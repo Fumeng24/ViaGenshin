@@ -7,8 +7,8 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/jhump/protoreflect/dynamic"
 
-	"github.com/Jx2f/ViaGenshin/internal/mapper"
-	"github.com/Jx2f/ViaGenshin/pkg/logger"
+	"github.com/chengecu/ViaGenshin/internal/mapper"
+	"github.com/chengecu/ViaGenshin/pkg/logger"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Jx2f/ViaGenshin/internal/mapper"
-	"github.com/Jx2f/ViaGenshin/pkg/logger"
-	"github.com/Jx2f/ViaGenshin/pkg/transport/kcp"
+	"github.com/chengecu/ViaGenshin/internal/mapper"
+	"github.com/chengecu/ViaGenshin/pkg/logger"
+	"github.com/chengecu/ViaGenshin/pkg/transport/kcp"
 )
 
 type Engine struct {

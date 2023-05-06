@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Jx2f/ViaGenshin/pkg/logger"
+	"github.com/chengecu/ViaGenshin/pkg/logger"
 )
 
 const (
@@ -72,7 +72,7 @@ func (s *Server) ConsoleExecute(cmd, uid uint32, text string) (string, error) {
 	if err := json.Unmarshal(p, body); err != nil {
 		return "", err
 	}
-	if (text == "help") {
+	if text == "help" {
 		return "gm指令往此输入", nil
 	}
 	if body.Retcode != 0 {

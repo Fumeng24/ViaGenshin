@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/Jx2f/ViaGenshin/internal/mapper"
-	"github.com/Jx2f/ViaGenshin/pkg/crypto/mt19937"
+	"github.com/chengecu/ViaGenshin/internal/mapper"
+	"github.com/chengecu/ViaGenshin/pkg/crypto/mt19937"
 )
 
 type GetPlayerTokenReq struct {

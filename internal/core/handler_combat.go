@@ -3,8 +3,8 @@ package core
 import (
 	"encoding/json"
 
-	"github.com/Jx2f/ViaGenshin/internal/mapper"
-	"github.com/Jx2f/ViaGenshin/pkg/logger"
+	"github.com/chengecu/ViaGenshin/internal/mapper"
+	"github.com/chengecu/ViaGenshin/pkg/logger"
 )
 
 type CombatInvokeEntry struct {

@@ -1,4 +1,4 @@
-module github.com/Jx2f/ViaGenshin
+module github.com/chengecu/ViaGenshin
 
 go 1.20
 

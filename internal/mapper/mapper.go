@@ -3,7 +3,7 @@ package mapper
 import (
 	"github.com/jhump/protoreflect/desc"
 
-	"github.com/Jx2f/ViaGenshin/internal/config"
+	"github.com/chengecu/ViaGenshin/internal/config"
 )
 
 type Protocol = config.Protocol

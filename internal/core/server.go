@@ -10,12 +10,12 @@ import (
 
 	"github.com/jhump/protoreflect/dynamic"
 
-	"github.com/Jx2f/ViaGenshin/internal/config"
-	"github.com/Jx2f/ViaGenshin/internal/mapper"
-	"github.com/Jx2f/ViaGenshin/pkg/crypto/mt19937"
-	"github.com/Jx2f/ViaGenshin/pkg/logger"
-	"github.com/Jx2f/ViaGenshin/pkg/transport"
-	"github.com/Jx2f/ViaGenshin/pkg/transport/kcp"
+	"github.com/chengecu/ViaGenshin/internal/config"
+	"github.com/chengecu/ViaGenshin/internal/mapper"
+	"github.com/chengecu/ViaGenshin/pkg/crypto/mt19937"
+	"github.com/chengecu/ViaGenshin/pkg/logger"
+	"github.com/chengecu/ViaGenshin/pkg/transport"
+	"github.com/chengecu/ViaGenshin/pkg/transport/kcp"
 )
 
 type Server struct {

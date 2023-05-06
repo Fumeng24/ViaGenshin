@@ -3,7 +3,7 @@ package core
 import (
 	"encoding/json"
 
-	"github.com/Jx2f/ViaGenshin/internal/mapper"
+	"github.com/chengecu/ViaGenshin/internal/mapper"
 )
 
 func (s *Session) HandlePacket(from, to mapper.Protocol, name string, head, data []byte) ([]byte, error) {

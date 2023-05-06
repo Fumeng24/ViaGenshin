@@ -5,13 +5,15 @@ import (
 	"encoding/json"
 	"os"
 	"os/signal"
+	"path/filepath"
 	"syscall"
 
 	"github.com/rs/zerolog"
+	"github.com/rs/zerolog/log"
 
-	"github.com/Jx2f/ViaGenshin/internal/config"
-	"github.com/Jx2f/ViaGenshin/internal/core"
-	"github.com/Jx2f/ViaGenshin/pkg/logger"
+	"github.com/chengecu/ViaGenshin/internal/config"
+	"github.com/chengecu/ViaGenshin/internal/core"
+	"github.com/chengecu/ViaGenshin/pkg/logger"
 )
 
 var c *config.Config
@@ -51,6 +53,15 @@ func init() {
 }
 
 func main() {
+
+	log.Logger = log.Output(zerolog.ConsoleWriter{Out: os.Stderr})
+	log.Logger = log.With().Caller().Logger()
+	zerolog.SetGlobalLevel(zerolog.InfoLevel)
+	zerolog.TimeFieldFormat = zerolog.TimeFormatUnix
+	zerolog.CallerFieldName = "module"
+	zerolog.CallerMarshalFunc = func(pc uintptr, file string, line int) string {
+		return filepath.Base(file)
+	}
 	s := core.NewService(c)
 
 	exited := make(chan error)

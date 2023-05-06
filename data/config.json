@@ -14,9 +14,9 @@
     }
   },
   "protocols": {
-    "baseProtocol": "v3.2.0",
+    "baseProtocol": "v3.3.0",
     "mapping": {
-      "v3.2.0": "data/mapping/v3.2.0"
+      "v3.2.0": "data/mapping/v3.3.0"
     }
   },
   "keys": {

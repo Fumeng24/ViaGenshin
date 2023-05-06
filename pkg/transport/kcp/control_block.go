@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"sync"
 	"time"
-	
+
 	"github.com/rs/zerolog/log"
 )
 
