@@ -132,8 +132,7 @@ func (s *Session) closeSession(reason DisconnectReason) error {
 }
 
 func (s *Session) open() error {
-	var err error
-	err = s.connectSyn()
+	err := s.connectSyn()
 	if err != nil {
 		return err
 	}

@@ -988,12 +988,10 @@ func (cb *ControlBlock) SetMtu(mtu int) int {
 	}
 
 	buffer := make([]byte, mtu)
-	if buffer == nil {
-		return -2
-	}
 	cb.mtu = uint32(mtu)
 	cb.mss = cb.mtu - IKCP_OVERHEAD - uint32(cb.reserved)
 	cb.buffer = buffer
+	
 	return 0
 }
 
