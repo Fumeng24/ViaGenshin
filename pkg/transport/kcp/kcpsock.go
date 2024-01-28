@@ -16,11 +16,11 @@ var (
 )
 
 func Dial(addr string) (*Session, error) {
-	conn, err := net.ListenUDP("udp", nil)
+	conn, err := net.ListenUDP("udp4", nil)
 	if err != nil {
 		return nil, err
 	}
-	udpAddr, err := net.ResolveUDPAddr("udp", addr)
+	udpAddr, err := net.ResolveUDPAddr("udp4", addr)
 	if err != nil {
 		return nil, err
 	}
@@ -45,11 +45,11 @@ type Listener struct {
 }
 
 func Listen(addr string) (*Listener, error) {
-	udpAddr, err := net.ResolveUDPAddr("udp", addr)
+	udpAddr, err := net.ResolveUDPAddr("udp4", addr)
 	if err != nil {
 		return nil, err
 	}
-	conn, err := net.ListenUDP("udp", udpAddr)
+	conn, err := net.ListenUDP("udp4", udpAddr)
 	if err != nil {
 		return nil, err
 	}

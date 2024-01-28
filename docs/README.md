@@ -1,7 +1,7 @@
 # ViaGenshin
 
 > This project is not a production-ready project, it's just a proof of concept. Use it at your own risk.
-> **You can check out the [actions page](https://github.com/chengecu/ViaGenshin/actions/workflows/build.yml) for the latest build.**
+> **You can check out the [actions page](https://github.com/Fumeng24/ViaGenshin/actions/workflows/build.yml) for the latest build.**
 
 Allows the connection of newer clients to older Genshin servers.
 

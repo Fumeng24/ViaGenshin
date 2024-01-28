@@ -5,8 +5,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/chengecu/ViaGenshin/internal/config"
-	"github.com/chengecu/ViaGenshin/internal/mapper"
+	"github.com/Fumeng24/ViaGenshin/internal/config"
+	"github.com/Fumeng24/ViaGenshin/internal/mapper"
 )
 
 type Service struct {

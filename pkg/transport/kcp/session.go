@@ -7,7 +7,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/chengecu/ViaGenshin/pkg/transport"
+	"github.com/Fumeng24/ViaGenshin/pkg/transport"
 )
 
 type DisconnectReason uint8

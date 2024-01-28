@@ -10,7 +10,7 @@ import (
 	"github.com/jhump/protoreflect/desc"
 	"github.com/jhump/protoreflect/desc/protoparse"
 
-	"github.com/chengecu/ViaGenshin/pkg/logger"
+	"github.com/Fumeng24/ViaGenshin/pkg/logger"
 )
 
 func (m *Mapping) loadBaseProtocol() error {

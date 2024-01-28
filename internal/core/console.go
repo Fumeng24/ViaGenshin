@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/chengecu/ViaGenshin/pkg/logger"
+	"github.com/Fumeng24/ViaGenshin/pkg/logger"
 )
 
 const (

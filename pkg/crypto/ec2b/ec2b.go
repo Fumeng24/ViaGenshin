@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/chengecu/ViaGenshin/pkg/crypto/mt19937"
+	"github.com/Fumeng24/ViaGenshin/pkg/crypto/mt19937"
 )
 
 type Ec2b struct {

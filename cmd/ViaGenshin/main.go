@@ -11,9 +11,9 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/chengecu/ViaGenshin/internal/config"
-	"github.com/chengecu/ViaGenshin/internal/core"
-	"github.com/chengecu/ViaGenshin/pkg/logger"
+	"github.com/Fumeng24/ViaGenshin/internal/config"
+	"github.com/Fumeng24/ViaGenshin/internal/core"
+	"github.com/Fumeng24/ViaGenshin/pkg/logger"
 )
 
 var c *config.Config
